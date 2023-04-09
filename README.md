@@ -28,10 +28,11 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 ### Todo
 - Melhorar a estilização do App 
 
-#### Autor
-Alan Souza
+## Author
+Alan Souza (follow me on [Linkedin](https://www.linkedin.com/in/alan-souza-602034263/))
 
-License
+### Licença
+
 The MIT License (MIT)
 
 Copyright (c) 2023 Alan Souza
