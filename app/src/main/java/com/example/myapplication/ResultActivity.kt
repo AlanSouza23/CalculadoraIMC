@@ -28,16 +28,17 @@ class ResultActivity : AppCompatActivity() {
         // Entre 30.0 e 39.9 Obesidade II
         // Maior que 40 Obesidade Grave III
 
-    val classificacao = if (result < 18.5f)
-        { "Abaixo do Peso"}
-        else if(result in 18.5f..24.9f)
-             { "Normal"}
-        else if (result in 24.9f..29.9f)
-             {"Sobrepeso"}
-        else if (result in 30f..39.9f)
-             {"Obesidade"}
-        else
-             {"Obesidade Grave"}
+        val classificacao =
+            if (result < 18.5f)
+            { "Abaixo do Peso"}
+            else if(result in 18.5f..24.9f)
+                 { "Normal"}
+            else if (result in 24.9f..29.9f)
+                 {"Sobrepeso"}
+            else if (result in 30f..39.9f)
+                 {"Obesidade"}
+            else
+                 {"Obesidade Grave"}
 
         tvClassificacao.text = getString(R.string.message_classificacao, classificacao)
         }
